@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block contant %}
+
+<h1>Bu home page</h1>
+{% for image in images %}
+<img src="{{ img.img.url }}" alt="">
+{% endfor %}   
+
+{% endblock content %}
